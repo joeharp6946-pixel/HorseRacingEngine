@@ -1,0 +1,4 @@
+# brain.py uses the Anthropic SDK (only needed when you run with an API key).
+# scraper.py and main.py now use the standard library only (manual text intake,
+# native clipboard), so no network/scraping dependencies.
+anthropic>=0.40.0
